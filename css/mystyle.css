@@ -1,0 +1,183 @@
+*{
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.centering{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+h1{
+	text-align: center;
+}
+
+.mybtn{
+	font-size:20px;
+	font-weight:550;
+	color:#000000;
+	width:100%;
+	height:30px;
+	background-color:#ffffff;	
+	border:2px solid #ffffff;
+	border-radius:5px;
+	
+}
+
+.mybtn:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+
+.input_form{
+	background-color:#ffffff;
+	border:5px solid #000000;
+	border-radius:10px;	
+	padding:10px;	
+}
+
+.input_title{
+	font-size:30px;
+	font-weight:600;
+	text-align:center;
+}
+
+.input_cell{
+	font-size:20px;
+	font-weight:600;	
+	margin:2px;
+}
+
+.input_data{
+	font-size:15px;
+	font-weight:600;
+	width:100%;
+	height:30px;
+	border:2px solid #000000;
+	border-radius:5px;
+	padding:2px;
+}
+
+.header{
+	margin-bottom:10px;
+}
+
+.inner_header{	
+	border:5px solid #000000;
+	border-radius:5px;
+	background:#cfcfcf;
+	height:100px;		
+}
+
+.content{
+	width:100%;
+	float:left;	
+}
+
+.inner_content{
+	border:5px solid #000000;
+	border-radius:5px;
+	min-height:500px;	
+}
+
+.footer{
+	margin-top:10px;
+}
+
+.inner_footer{
+	border:5px solid #000000;
+	border-radius:5px;
+	background:#cfcfcf;
+	height:100px;
+	font-size:20px;
+	font-weight:500;
+}
+
+.btn_header{
+	width:100%;
+	height:100%;
+	font-size:20px;
+	font-weight:500;
+	background-color:#ffffff;
+	border-radius:5px;
+}
+
+.btn_header:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+
+.table_output{	
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	width:100%;	
+	padding:5px;
+}
+
+.title_table_output{
+	background:#cfcfcf;
+}
+
+.wrap_header_btn{
+	width:15%;
+	height:90%;	
+	margin:5px;
+}
+
+.float_left{
+	float:left;
+}
+
+.float_right{
+	float:right;
+}
+
+.btn_table{
+	background:#cfcfcf;
+	font-size:20px;
+	font-weight:500;
+	width: 100%;
+}
+
+.input_table{
+	border-color:#ffffff;
+	font-size:20px;
+	font-weight:500;	
+	width:100%;
+	text-align:center;
+}
+
+.label{
+	font-size:30px;
+	font-weight:600;
+	margin:10px;
+	padding:5px;
+}
+
+.mylink{
+	color: firebrick;
+	text-decoration: none;
+}
+
+.myselect{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-size:25px;
+	font-weight:550;
+}
